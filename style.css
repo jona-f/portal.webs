@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* media queries logo */
+@media screen and (max-width: 990px) {
+    #logo {
+        display: none;
+    }
+}
+
+/* HEADER TITULO */
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: dodgerblue;
+    font-family: "Monserrat";
+    text-align: center;
+    position: relative;
+}
+
+.hero-title:hover {
+    color: #fff;
+}
+
+/* HEADER QUINES SOMOS? */
+
+.post {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.texto-p h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color:black;
+    font-family: "Monserrat";
+}
+
+.texto-p p {
+    font-size: 30px;
+    font-family: Gill Sans;
+    color: grey;
+}
+
+/* CARDS TRABAJOS REALIZADOS */
+
+.card {
+    cursor: pointer;
+    width: 190px;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.card:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+
+.card video {
+    height: 100%;
+    width: 100%;
+}
