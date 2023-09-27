@@ -8,7 +8,7 @@
 /* NAVBAR */
 
 header {
-background-color: black;
+background-color: rgb(255, 255, 255);
 }
 
 .navbar-collapse {
@@ -27,7 +27,7 @@ background-color: black;
 
 .nav-link:hover {
     text-decoration: underline;
-    color: #fff;
+    color: peru;
 }
 
 /*  TITULO */
@@ -35,83 +35,36 @@ background-color: black;
 .hero-title {
     font-size: 3rem;
     font-weight: 600;
-    color: dodgerblue;
-    font-family: "Monserrat";
+    color: black;
+    font-family: "Bebas Neue";
     text-align: center;
     position: relative;
 }
 
-.hero-title:hover {
-    color: #fff;
-}
-
 /*  QUINES SOMOS? */
 
-.post {
-    width: 500px;
-    height: 500px;
-    border-radius: 15px;
+.col {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
 }
 
-.texto-p h3 {
-    font-size: 2rem;
-    font-weight: 600;
-    color:black;
-    font-family: "Monserrat";
+.post {
+    width: 600px;
+    height: 600px;
 }
 
 .texto-p p {
-    font-size: 30px;
-    font-family: Gill Sans;
+    font-size: 22px;
     color: grey;
 }
 
-/* CARDS TRABAJOS REALIZADOS */
-
-.card {
-    cursor: pointer;
-    width: 190px;
-    height: 254px;
-    background: rgb(255, 255, 255);
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-}
-
-.card:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
-}
-
-.card video {
-    height: 100%;
-    width: 100%;
-}
-
-/* cartas servicios */
-
-.serv {
-    display: flex;
-    justify-content: space-between;
-}
-
-.carta h3 {
-    font-size: 30px;
-    justify-content: center;
-    text-align: center;
-    font-family: "Monserrat";
-}
-
-.carta img {
-    width: 150px;
-    height: 150px;
-}
 
 /* images ayuda / texto */
 
 .texto-pp {
-    font-size: 25px;
-    font-family: Gill Sans;
+    font-size: 20px;
     color: grey;
 }
 
@@ -138,17 +91,52 @@ background-color: black;
     color: #fff;
 }
 
-/* formulario */
+/* que podemos ofrecerte iconos y texto */
 
+.iconos {
+    width: 130px;
+    margin: 5px;
+}
+.alineamos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ofrecemos-texto {
+    font-family:"Verdana";
+    font-size: 18px;
+    color: gray;
+    margin: 5px;
+}
+
+
+/* formulario 
+.form-label{
+    font-family:verdana;
+    font-size: 18px;
+}
 .formulario {
     margin: 0 20rem;
+}
+*/
+
+/* EMPRESAS CON LAS QUE TRABAJAMOS */
+
+.empresas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.empresas img {
+    width: 200px;
+    height: 200px;
 }
 
 
 /* footer logo y redes */
 
 #footer {
-    background-color: black;
+    background-color: rgb(28, 28, 28);
     display: flex;
     justify-content: space-around;
 }
@@ -157,11 +145,11 @@ background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 50px;
 }
 
 .footer-logo {
-    width: 100px;
-    height: 90px;
+    width: 150px;
 }
 
 .iconos-redes {
@@ -185,4 +173,8 @@ background-color: black;
     font-size: 20px;
     max-width: 400px;
     text-decoration: none;
+}
+
+.redes {
+    padding: 30px;
 }
