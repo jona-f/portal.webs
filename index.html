@@ -26,17 +26,19 @@
 
         <!-- NAVBAR  -->
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-navicon" style="color:#000000; font-size:28px;"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="navbar-brand" id="logo" href="#">
-                            <img src="./img/portal.png" alt="" width="105" height="90"
+                            <img src="./img/portal.png" alt="portalweb" width="105" height="90"
                                 class="d-inline-block align-text-top">
                         </a>
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -54,13 +56,14 @@
 
     <main>
 
-        <!-- TITULO -->
+                                <!-- TITULO -->
 
+        <section>
         <div class="container">
 
             <h1 class="hero-title">Portal Webs. Transformando ideas en paginas web</h1>
 
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col">
                         <img class="post" src="/img/post.jpg" alt="Quienes somos">
@@ -84,11 +87,14 @@
             </div>
 
         </div>
+        </section>
 
-        <section class="container" id="servicios">
+        <section id="servicios">
 
-            <!-- SERVICIOS  CARDS  -->
+                                    <!-- SERVICIOS  -->
 
+            <div class="container">
+            
             <h2 class="hero-title"> Servicios</h2>
 
             <p class="texto-pp">
@@ -98,47 +104,37 @@
                 mercado en línea, nuestros servicios de landing pages y tiendas online están diseñados para
                 ayudarlo a alcanzar sus objetivos de manera efectiva y profesional.</p>
 
-            <div class="container serv">
-
-
             </div>
-        </section>
-
-        <!-- EN QUE PODEMOS AYUDARTE -->
-
-        <section class="ayudarte container" id="ayudarte">
 
             <div class="container">
 
-                <div class="ayuda">
-                    <div class="contenido">
-                        <img src="./img/fondo.png" alt="pagina">
+                <div class="row">
+                    <div class="col publicidad">
                         <div class="texto">
                             <h2>¿Necesitas una puerta digital que atraiga a tus clientes?</h2>
                             <h4>Nuestras Landing Pages son imanes para la atención.</h4>
                         </div>
                     </div>
 
-                    <div class="contenido">
-                        <img src="./img/fondo2.png" alt="pagina">
+                    <div class="col publicidad2">
                         <div class="texto">
                             <h2>¿Listo para llevar tu tienda al siguiente nivel?</h2>
-                            <h4>Nuestra plataforma de Ecommerce es el trampolín para que tus productos brillen en línea.
-                            </h4>
+                            <h4>Nuestra plataforma de Ecommerce es el trampolín para que tus productos brillen en línea.</h4>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
 
+                                <!-- QUE PODEMOS OFRECERTE -->
 
         <section>
 
-            <div class="container">
+            <div class="container mt-3">
                 <h2 class="hero-title">¿Que podemos ofrecerte?</h2>
 
-                        <div class="alineamos">
+                <div class="row">
+                        <div class="col-lg-6 mt-6 orden">
             <img class="iconos" src="./img/diseno-web.png" alt="responsive">
                 <p class="ofrecemos-texto">
                     Optimización para Dispositivos Móviles:En la era actual, la mayoría de las personas acceden a sitios
@@ -147,7 +143,7 @@
                 </p>
                         </div>
 
-                        <div class="alineamos">
+                        <div class="col-lg-6 mt-6 orden">
             <img class="iconos" src="./img/formulario.png" alt="formularios">
                 <p class="ofrecemos-texto">
                     Formularios Intuitivos y Funcionales: Los formularios son una parte crucial de cualquier sitio web.
@@ -158,7 +154,7 @@
                 </p>
                         </div>
 
-                        <div class="alineamos">
+                        <div class="col-lg-6 mt-6 orden">
             <img class="iconos" src="./img/redees.png" alt="redes sociales">
                 <p class="ofrecemos-texto">
                     Integración de Redes Sociales: Conecta tu sitio web con tus perfiles en redes sociales para aumentar
@@ -167,7 +163,7 @@
                 </p>
                         </div>
 
-                        <div class="alineamos">
+                        <div class="col-lg-6 mt-6 orden">
             <img class="iconos" src="./img/manten.png" alt="mantenimiento">
                 <p class="ofrecemos-texto">
                     Mantenimiento y Actualizaciones: No termina con el lanzamiento de tu sitio web. Ofrecemos servicios de
@@ -175,41 +171,13 @@
                     problemas.
                 </p>
                         </div>
-
+                    </div>
                         
             </div>
 
         </section>
 
-        <!--
-            <section>
 
-            <div class="container">
-                <form class="formulario" action="https://formsubmit.co/portal.webs23@gmail.com" method="POST">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="tuemail@ejemplo.com">
-                    </div>
-
-                    <div class="mb-3">
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Seleccione servicio</option>
-                            <option value="1">Landing-Page</option>
-                            <option value="2">Ecommerce</option>
-                            <option value="3">Personalizado</option>
-                        </select>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        <button type="submit" class="btn btn-outline-secondary">Enviar</button>
-                    </div>
-                </form>
-            </div>
-
-        </section> -->
         <!-- EMPRESAS CON LAS QUE TRABAJAMOS  -->
 
         <section id="trabajos">
@@ -272,7 +240,6 @@
             </div>
 
         </section>
-
     </footer>
 
     <script src="index.js"></script>

@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+section {
+    padding: 35px;
+}
 
 
 /* NAVBAR */
@@ -28,6 +31,10 @@ background-color: rgb(255, 255, 255);
 .nav-link:hover {
     text-decoration: underline;
     color: peru;
+}
+
+.navbar-toggler{
+    border-color: black;
 }
 
 /*  TITULO */
@@ -68,63 +75,65 @@ background-color: rgb(255, 255, 255);
     color: grey;
 }
 
-.ayuda {
+
+.publicidad {
+    width: 600px;
+    height: 400px;
+    margin: 5px;
     display: flex;
-    gap: 60px;
+    align-items: center;
     justify-content: center;
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(./img/fondo.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.contenido {
+.publicidad2 {
+    width: 600px;
+    height: 400px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(./img/fondo2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.texto {
+    display: block;
     position: relative;
-} 
-
-.ayuda .contenido img {
-    width: 400px;
-    height: 300px;
-    filter: blur(2px);
-}
-
-.contenido .texto {
-    position: absolute;
-    top: 20%;
+    color: #ffffff;
+    font-size: medium;
     text-align: center;
-    color: #fff;
 }
 
 /* que podemos ofrecerte iconos y texto */
 
 .iconos {
-    width: 130px;
+    width: 90px;
     margin: 5px;
 }
-.alineamos {
+
+.orden {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .ofrecemos-texto {
     font-family:"Verdana";
-    font-size: 18px;
+    font-size: 16px;
     color: gray;
     margin: 5px;
 }
-
-
-/* formulario 
-.form-label{
-    font-family:verdana;
-    font-size: 18px;
-}
-.formulario {
-    margin: 0 20rem;
-}
-*/
 
 /* EMPRESAS CON LAS QUE TRABAJAMOS */
 
 .empresas {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .empresas img {
@@ -178,3 +187,5 @@ background-color: rgb(255, 255, 255);
 .redes {
     padding: 30px;
 }
+
+/* MEDIA QRIES */
