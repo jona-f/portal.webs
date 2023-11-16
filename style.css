@@ -28,15 +28,6 @@ background-color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
-    color: peru;
-}
-
-.navbar-toggler{
-    border-color: black;
-}
-
 /*  TITULO */
 
 .hero-title {
@@ -46,6 +37,7 @@ background-color: rgb(255, 255, 255);
     font-family: "Bebas Neue";
     text-align: center;
     position: relative;
+    padding: 10px;
 }
 
 /*  QUINES SOMOS? */
@@ -159,7 +151,7 @@ background-color: rgb(255, 255, 255);
 	overflow: hidden;
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
+	animation: float 2s ease-in-out infinite;
 	img { width: 100%; height: auto; }
 }
 
@@ -208,14 +200,14 @@ background-color: rgb(255, 255, 255);
 .col-f h4 {
     font-family: Verdana;
     font-size: 40px;
-    color: peru;
+    color: rgba(255,255,255,.55);
     display: flex;
     justify-content: center;
     margin-top: 1rem;
 }
 
 .col-f p, .col-f a {
-    color: peru;
+    color: rgba(255,255,255,.55);
     font-family: Verdana;
     justify-content: center;
     text-align: center;
