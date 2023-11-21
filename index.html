@@ -219,48 +219,36 @@
 
         </section>
 
-                <!-- Formulario de contacto -->
+    <section id="formulario">
 
-                <section id="formulario">
+        <div class="container">
 
-                    <div class="container">
-        
-                        <h2 class="hero-title">Trabaja con nosotros</h2>
-        
-                        <div class="row">
-        
-                            <div class="form" data-aos="flip-left">
-                                <form action="../../form-result.php" target="_blank">
-        
-                                    <p>Nombre:<br>
-                                        <input class="medidas" type="text" name="nombre"></p>
-        
-                                    <p>Email:<br>
-                                        <input class="medidas" type="text" name="correo"></p>
-        
-                                    <p>
-                                        Tu consulta:<br>
-                                        <textarea class="medidas" name="Mensaje"></textarea>
-                                    </p>
-        
-                                    <div class="padre">
-                                    <button>
-                                        <span class="circle1"></span>
-                                        <span class="circle2"></span>
-                                        <span class="circle3"></span>
-                                        <span class="circle4"></span>
-                                        <span class="circle5"></span>
-                                        <span class="text">Enviar</span>
-                                    </button></div>
-        
-                                </form>
-                            </div>
-        
-                        </div>
-                    </div>
-        
-                </section>
+            <h2 class="hero-title">Trabaja con nosotros</h2>
 
+            <div class="row formulario">
+
+                <div class="card" data-aos="flip-left">
+            
+            <form class="form">
+                <div class="group">
+                    <input placeholder="" type="text" required="">
+                    <label for="name">Nombre</label>
+                </div>
+                <div class="group">
+                    <input placeholder="" type="email" id="email" name="email" required="">
+                    <label for="email">Email</label>
+                </div>
+                <div class="group">
+                    <textarea placeholder="" id="comment" name="comment" rows="5" required=""></textarea>
+                    <label for="comment">Mensaje</label>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+                </div>
+
+            </div>
+            </div>
+    </section>
 
     </main>
 
