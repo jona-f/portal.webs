@@ -217,7 +217,7 @@
                 </div>
             </div>
 
-        </section>
+        <!-- </section> -->
 
     <section id="formulario">
 
@@ -229,9 +229,9 @@
 
                 <div class="card" data-aos="flip-left">
             
-            <form class="form">
+            <form class="form" id="form">
                 <div class="group">
-                    <input placeholder="" type="text" required="">
+                    <input placeholder="" id="nombre" type="text" required="">
                     <label for="name">Nombre</label>
                 </div>
                 <div class="group">
@@ -239,7 +239,7 @@
                     <label for="email">Email</label>
                 </div>
                 <div class="group">
-                    <textarea placeholder="" id="comment" name="comment" rows="5" required=""></textarea>
+                    <textarea placeholder="" id="mensaje" name="comment" rows="5" required=""></textarea>
                     <label for="comment">Mensaje</label>
                 </div>
                 <button type="submit">Enviar</button>
@@ -249,6 +249,21 @@
             </div>
             </div>
     </section>
+
+    <!-- TOAST MENSAJE 
+    <section>
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+            <img src="..." class="rounded me-2" alt="...">
+            <strong class="me-auto">Portal Webs</strong>
+            
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+            Hola, Ya enviamos tu consulta! Gracias ♥
+            </div>
+        </div>
+    </section> -->
 
     </main>
 
@@ -307,6 +322,7 @@
     <script>
         AOS.init();
     </script>
+
 </body>
 
 </html>
